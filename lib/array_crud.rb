@@ -5,6 +5,7 @@ end
 def create_an_array
   array = create_an_empty_array
   4.times { array << nil }
+  array
 end
 
 def add_element_to_end_of_array(array, element)
